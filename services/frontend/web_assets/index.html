@@ -80,7 +80,7 @@ $(".hotrod-button").click(function(evt) {
       var after = Date.now();
       console.log(data);
       var duration = formatDuration(data.ETA);
-      freshCar.html('<h3>' + 'Not-Uber <b>' + data.Driver + '</b> arriving in ' + duration + ' [req: ' + requestID + ', latency: ' + (after-before) + 'ms]'+ '<h3>');
+      freshCar.html('Not-Uber <b>' + data.Driver + '</b> arriving in ' + duration + ' [req: ' + requestID + ', latency: ' + (after-before) + 'ms]');
     },
   });
 });
