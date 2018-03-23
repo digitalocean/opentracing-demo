@@ -21,7 +21,7 @@
       <div class="uuid alert alert-info"></div>
       <center>
         <h1>Not a Uber App</h1>
-        <h4><em>Rides On Demand</em></h4>
+        <h3><em><i>Rides On Demand</i></em></h3>
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <span
@@ -80,7 +80,7 @@ $(".hotrod-button").click(function(evt) {
       var after = Date.now();
       console.log(data);
       var duration = formatDuration(data.ETA);
-      freshCar.html('Not-Uber <b>' + data.Driver + '</b> arriving in ' + duration + ' [req: ' + requestID + ', latency: ' + (after-before) + 'ms]');
+      freshCar.html('<h3>' + 'Not-Uber <b>' + data.Driver + '</b> arriving in ' + duration + ' [req: ' + requestID + ', latency: ' + (after-before) + 'ms]'+ '<h3>');
     },
   });
 });
