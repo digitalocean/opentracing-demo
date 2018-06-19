@@ -30,11 +30,10 @@ Jaeger UI can be accessed at http://localhost:16686.
 
 ### Run Not-Uber Application
 
+NOTE: Follow the configuration steps here - [Take OpenTracing for a HotROD ride][hotrod-tutorial] before executing below steps.
+
 ```
-go get github.com/jaegertracing/jaeger
-cd $GOPATH/src/github.com/jaegertracing/jaeger
-make install
-cd examples/
+cd opentracing-demo/
 go run ./main.go all
 ```
 
