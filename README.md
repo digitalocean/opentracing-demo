@@ -37,7 +37,7 @@ cd opentracing-demo/
 go run ./main.go all
 ```
 
-Then open http://127.0.0.1:8080
+Then open http://<ip-address>:8080
 
 
 [hotrod-tutorial]: https://medium.com/@YuriShkuro/take-opentracing-for-a-hotrod-ride-f6e3141f7941
